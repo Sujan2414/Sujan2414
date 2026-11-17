@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./art/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./art/banner-light.svg">
-  <img alt="Sujan S Dandgulkar — Data Engineer" src="./art/banner-dark.svg" width="100%">
+  <img alt="Sujan S Dandgulkar — Data Engineer and full-stack developer" src="./art/banner-dark.svg" width="100%">
 </picture>
 
 <h1>Hey there, I'm Sujan 👋</h1>
@@ -51,19 +51,9 @@ I build **production data systems end to end** — ingestion, warehouse models a
 ## 🛠️ Tech stack
 
 <img src="https://skillicons.dev/icons?i=py,mysql,postgres,azure,sklearn,linux&theme=dark" alt="Python, MySQL, PostgreSQL, Azure, scikit-learn, Linux"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=10B981" alt="SQL"/>
-<img src="https://img.shields.io/badge/PySpark-0d1117?style=for-the-badge&logo=apachespark&logoColor=10B981" alt="PySpark"/>
-<img src="https://img.shields.io/badge/Hadoop-0d1117?style=for-the-badge&logo=apachehadoop&logoColor=10B981" alt="Hadoop"/>
-<img src="https://img.shields.io/badge/Hive-0d1117?style=for-the-badge&logo=apachehive&logoColor=10B981" alt="Hive"/>
-<img src="https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=10B981" alt="Pandas"/>
-<img src="https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=10B981" alt="NumPy"/>
 <br/>
-<img src="https://img.shields.io/badge/Power_BI-0d1117?style=for-the-badge" alt="Power BI"/>
-<img src="https://img.shields.io/badge/Power_BI_Embedded-0d1117?style=for-the-badge" alt="Power BI Embedded"/>
-<img src="https://img.shields.io/badge/Azure_OpenAI-0d1117?style=for-the-badge" alt="Azure OpenAI"/>
-<img src="https://img.shields.io/badge/n8n-0d1117?style=for-the-badge&logo=n8n&logoColor=10B981" alt="n8n"/>
-<br/><br/>
+<img src="./art/stack-data.svg" height="48" alt="PySpark, Hadoop, Hive, Pandas, NumPy, Power BI, n8n"/>
+<br/>
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,supabase,git,github,postman,vscode&theme=dark" alt="TypeScript, React, Next.js, Supabase, Git, GitHub, Postman, VS Code"/>
 
 ---

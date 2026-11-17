@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Sujan S Dandgulkar — Data Engineer, Bengaluru">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Sujan S Dandgulkar — Data Engineer and full-stack developer, Bengaluru">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -25,7 +25,11 @@
       @keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(40px,-18px); } }
       @keyframes blink { 0%,50% { opacity: 1; } 50.01%,100% { opacity: 0; } }
       @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-      @media (prefers-reduced-motion: reduce) { .orb, .orb2, .cursor { animation: none; } .rise, .rise2, .rise3 { animation: none; opacity: 1; } }
+      .swap-a { animation: swapA 10s ease-in-out infinite; }
+      .swap-b { opacity: 0; animation: swapB 10s ease-in-out infinite; }
+      @keyframes swapA { 0%,42% { opacity: 1; } 46%,96% { opacity: 0; } 100% { opacity: 1; } }
+      @keyframes swapB { 0%,46% { opacity: 0; } 50%,92% { opacity: 1; } 96%,100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .orb, .orb2, .cursor { animation: none; } .rise, .rise2, .rise3 { animation: none; opacity: 1; } .swap-a { animation: none; opacity: 0; } .swap-b { animation: none; opacity: 1; } }
       text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
       .mono { font-family: ui-monospace, 'Cascadia Code', Consolas, Menlo, monospace; }
     </style>
@@ -42,8 +46,14 @@
     <text x="78" y="178" font-size="62" font-weight="800" fill="url(#ink)" letter-spacing="-1">Sujan S Dandgulkar</text>
   </g>
   <g class="rise3">
-    <text x="80" y="226" font-size="24" fill="#d1fae5" fill-opacity="0.85">Data Engineer · ETL pipelines, warehouses &amp; analytics</text>
-    <rect class="cursor" x="653" y="206" width="12" height="26" rx="2" fill="#34d399"/>
+    <g class="swap-a">
+      <text x="80" y="226" font-size="24" fill="#d1fae5" fill-opacity="0.85">Full-stack developer · web apps, mobile apps &amp; AI automation</text>
+      <rect class="cursor" x="746" y="206" width="12" height="26" rx="2" fill="#34d399"/>
+    </g>
+    <g class="swap-b">
+      <text x="80" y="226" font-size="24" fill="#d1fae5" fill-opacity="0.85">Data Engineer · ETL pipelines, warehouses &amp; analytics</text>
+      <rect class="cursor" x="653" y="206" width="12" height="26" rx="2" fill="#34d399"/>
+    </g>
   </g>
 
   <g transform="translate(1000 150)" opacity="0.9">
