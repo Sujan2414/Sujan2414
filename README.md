@@ -3,13 +3,13 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./art/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./art/banner-light.svg">
-  <img alt="Sujan S Dandgulkar — Full-stack developer" src="./art/banner-dark.svg" width="100%">
+  <img alt="Sujan S Dandgulkar — Data Engineer" src="./art/banner-dark.svg" width="100%">
 </picture>
 
 <h1>Hey there, I'm Sujan 👋</h1>
 
-<a href="https://github.com/Sujan2414">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=10B981&center=true&vCenter=true&width=640&lines=Full-stack+developer+from+Bengaluru;Next.js+%C2%B7+React+Native+%C2%B7+Supabase;CRMs%2C+HRMS%2C+real-estate+platforms;WhatsApp+%26+AI+automation" alt="Typing SVG" />
+<a href="https://sujan-d.vercel.app">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=10B981&center=true&vCenter=true&width=640&lines=Data+Engineer+from+Bengaluru;Python+%C2%B7+SQL+%C2%B7+PySpark+%C2%B7+Azure;ETL+pipelines%2C+warehouses+%26+Power+BI;LLM-powered+reporting+automation" alt="Typing SVG" />
 </a>
 
 <p>
@@ -28,17 +28,18 @@
   <tr>
     <td width="65%" valign="top">
 
-I build **production software end to end** — websites, internal tools and mobile apps — and keep them running for real businesses.
+I build **production data systems end to end** — ingestion, warehouse models and the dashboards on top — and keep them running for real businesses.
 
-- 🏢 Developer at **UK&Co**, Bengaluru
-- 🏡 Built and run a full **real-estate platform**: public website, CRM, HRMS, payroll and two mobile apps on one Supabase backend
-- 💬 Ship **WhatsApp & AI automation** — lead capture from property portals, an AI assistant that qualifies leads, task and attendance alerts
-- 📱 Mobile apps with **React Native + Expo**, live on the App Store and Google Play
-- 🌱 Currently into SEO engineering, AI agents and making slow things fast
+- 🏢 Data Engineer and team lead at **UK&Co**, Bengaluru — ingestion to dashboard delivery for 20+ clients across finance, retail and quick commerce
+- 🔄 **ETL pipelines** in Python and PySpark, pulling SAP, Salesforce, Tally and quick-commerce platform data into one warehouse
+- 📊 **Power BI and Power BI Embedded** dashboards — a live Finance MIS that replaced weeks of manual collation, and an asset intelligence platform tracking 40,000+ freezers
+- 🤖 **LLM-powered automation** — an n8n + Azure OpenAI workflow that turned 6+ hours of weekly client reporting into one click
+- 🧩 Also ship full-stack web and mobile apps with Next.js, React Native and Supabase
+- 🌱 Currently into Databricks, Airflow and MLOps
 
     </td>
     <td width="35%" align="center" valign="middle">
-      <img src="https://github.com/Sujan2414.png" width="220" style="border-radius: 50%;" alt="Sujan"/>
+      <img src="./art/sujan.png" width="220" alt="Sujan S Dandgulkar"/>
     </td>
   </tr>
 </table>
@@ -49,11 +50,21 @@ I build **production software end to end** — websites, internal tools and mobi
 
 ## 🛠️ Tech stack
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind&theme=dark" alt="Frontend"/>
+<img src="https://skillicons.dev/icons?i=py,mysql,postgres,azure,sklearn,linux&theme=dark" alt="Python, MySQL, PostgreSQL, Azure, scikit-learn, Linux"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=10B981" alt="SQL"/>
+<img src="https://img.shields.io/badge/PySpark-0d1117?style=for-the-badge&logo=apachespark&logoColor=10B981" alt="PySpark"/>
+<img src="https://img.shields.io/badge/Hadoop-0d1117?style=for-the-badge&logo=apachehadoop&logoColor=10B981" alt="Hadoop"/>
+<img src="https://img.shields.io/badge/Hive-0d1117?style=for-the-badge&logo=apachehive&logoColor=10B981" alt="Hive"/>
+<img src="https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=10B981" alt="Pandas"/>
+<img src="https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=10B981" alt="NumPy"/>
 <br/>
-<img src="https://skillicons.dev/icons?i=supabase,postgres,firebase,python,vercel,cloudflare&theme=dark" alt="Backend and cloud"/>
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,figma,vscode,html,css&theme=dark" alt="Tools"/>
+<img src="https://img.shields.io/badge/Power_BI-0d1117?style=for-the-badge" alt="Power BI"/>
+<img src="https://img.shields.io/badge/Power_BI_Embedded-0d1117?style=for-the-badge" alt="Power BI Embedded"/>
+<img src="https://img.shields.io/badge/Azure_OpenAI-0d1117?style=for-the-badge" alt="Azure OpenAI"/>
+<img src="https://img.shields.io/badge/n8n-0d1117?style=for-the-badge&logo=n8n&logoColor=10B981" alt="n8n"/>
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,supabase,git,github,postman,vscode&theme=dark" alt="TypeScript, React, Next.js, Supabase, Git, GitHub, Postman, VS Code"/>
 
 ---
 
@@ -80,7 +91,8 @@ I build **production software end to end** — websites, internal tools and mobi
 
 ## 🤝 Connect
 
-<a href="https://portfolio-three-flax-99.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=10B981" alt="Portfolio"/></a>
+<a href="https://sujan-d.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=10B981" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/sujan-dandgulkar"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge" alt="LinkedIn"/></a>
 <a href="https://github.com/Sujan2414"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=10B981" alt="GitHub"/></a>
 
 </div>
